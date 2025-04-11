@@ -12,8 +12,8 @@ const MenuItem = ({item}) => {
     }
 
   return (
-    <li className='menu-item'>
-        <div style={{display:'flex', gap:'12px', alignItems:'center'}}>
+    <li>
+        <div className='menu-item'>
         <p>{item.label}</p>
         {
             item && item.children && item.children.length 
