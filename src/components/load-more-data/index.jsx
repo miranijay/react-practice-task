@@ -35,7 +35,7 @@ export default function LoadMoreData() {
         if(products && products.length === 100) {
             setdisable(true);
         }
-    })
+    },[])
 
     if(loading) {
         return <h1>Loading...</h1>

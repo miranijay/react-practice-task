@@ -7,6 +7,7 @@ import LoadMoreData from './components/load-more-data/index.jsx'
 import TreeView from './components/tree_view/index.jsx'
 import menus from './components/tree_view/data.js'
 import QrCodeGenerator from './components/qr-code-generator/index.jsx'
+import { ToggleSwitch } from './components/ToggleSwitch/ToggleSwitch.jsx'
 
 export default function App() {
 
@@ -16,6 +17,8 @@ export default function App() {
                 <Accordian />
 
                 <Randomcolor />
+
+                <ToggleSwitch />
 
                 <StarRating stars={10}/>
 
