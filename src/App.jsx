@@ -13,7 +13,6 @@ export default function App() {
 
     return (
             <div className='App'>
-
                 <Accordian />
 
                 <Randomcolor />
@@ -32,7 +31,7 @@ export default function App() {
 
                 <TreeView menus={menus} />
 
-{/*                 <QrCodeGenerator /> */}
+                <QrCodeGenerator />
             </div>
     )
 }
